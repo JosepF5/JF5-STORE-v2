@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+.titulo{
+    font-weight: bold;
+}
+.titulo__Secciones{
+    @extend .titulo;
+}
+.titulo__Principal{
+    @extend .titulo;
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 1rem;
+}
+.titulo__Cartas{
+    @extend .titulo;
+}
+.piePagina{
+    @extend .titulo__Principal;
+
+}

@@ -1,0 +1,8 @@
+.titulo, .titulo__Secciones, .titulo__Principal, .piePagina, .titulo__Cartas {
+  font-weight: bold; }
+
+.titulo__Principal, .piePagina {
+  background-color: #1D1D1D;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 1rem; }
