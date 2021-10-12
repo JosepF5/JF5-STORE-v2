@@ -18,8 +18,47 @@
 }
 .piePagina{
     @extend .titulo__Principal;
-
 }
 .clasePrueba{
     color:white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.btn-outline-success{
+    color: black;
+    border-color: black;
+}
+.btn-outline-success:hover{
+    background-color: black;
+    border-color: black;
+}
+.footer-detalles{
+    font-weight: normal;
+    color: var(--bs-gray-300);
+    font-size: 1rem;
+}
+.logosFooter{
+   position: relative;
+   width: 15rem;
+   height: 5rem;
+}
+.bg-empresa{
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 40vh;
+}
+
+.bg-nosotros{
+   @extend .bg-empresa;
+   background-image: url(../imagenes/somos1.jpg);
+}
+.bg-meta{
+    @extend .bg-empresa;
+    background-image: url(../imagenes/somos2.jpg);
+}
+h1 p{
+    margin: 0px;
+    padding: 0px;
 }
