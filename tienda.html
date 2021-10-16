@@ -4,92 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
-<link rel="stylesheet" href="css/estilo.css">
-    <title>JF5 Store | Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/pruebacss.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>JF5 STORE | Inicio</title>
 </head>
 <body>
-    <div class="barraNavegacion">
-        <div class="barraNavegacion__logo">
-            <img class="logo__imagen" src="imagenes/logoTienda.png" alt="">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logoSF.png" alt="" width="70" height="65">
+        </a>
+        <a class="navbar-brand" href="index.html">JF5 STORE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html"">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" disabled">Tienda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="combos.html">Combos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        <div class="barraNavegacion__barra">
-            <nav class="barraNavegacion__barra--nav">
-                <a href="index.html">Inicio</a>
-                <a href="nosotros.html">Somos</a>
-                <a href="combos.html">Combos</a>
-                <a href="tienda.html">Tienda</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
-        </div>
+      </div>
+    </nav>
+    <div class="titulo__Principal ">
+        <h1 class="text-center animate__animated animate__backInDown">TIENDA ONLINE</h1>
     </div>
-    <div class="contenido">
-        <div class="contenido__titulo contenido__animacionT">
-            <h1>Tienda Online</h1>
+    
+  </header>
+  <main>
+    <div class="bg-tienda_item1 text-center m-0 p-5">
+      <h1 class="animate__animated animate__zoomInLeft">PROCESADORES</h1>
+      <div class="row">
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/pro1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">AMD RYZEN 3 3100</h5>
+                  <p class="card-text">S/774.90</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
+                </div>
+              </div>
         </div>
-        <div class="contenido__tienda">
-            <div class="contenido__tienda--items1">
-                <div class="itemscont">
-                    <img src="imagenes/pro1.jpg">
-                    <h3>AMD RYZEN 3 3100</h3>
-                    <h3 class="precio">S/774.90</h3>
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/pro2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">INTEL CORE I5-11400F</h5>
+                  <p class="card-text">S/798.50</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
                 </div>
-                <div class="itemscont">
-                    <img src="imagenes/pro2.jpg">
-                    <h3>INTEL CORE I5-11400F</h3>
-                    <h3 class="precio">S/798.50</h3>
-                </div>
-                <div class="itemscont">
-                    <img src="imagenes/pro3.jpg">
-                    <h3>RYZEN 5 5600X</h3>
-                    <h3 class="precio">S/742.40</h3>
-                </div>
-            </div>
-            <div class="contenido__tienda--items2">
-                <div class="itemscont">
-                    <img src="imagenes/mb1.jpg">
-                    <h3>ASUS ROG STRIX </h3>
-                    <h3 class="precio">S/565.80</h3>
-                </div>
-                <div class="itemscont">
-                    <img src="imagenes/mb2.jpg">
-                    <h3>ASROCK B550 TAICHI</h3>
-                    <h3 class="precio">S/1717.90</h3>
-                </div>
-                <div class="itemscont">
-                    <img src="imagenes/mb3.jpg">
-                    <h3>GIGABYTE B550M DS3H</h3>
-                    <h3 class="precio">S/487.90</h3>
-                </div>
-            </div>
-            <div class="contenido__tienda--items3">
-                <div class="itemscont">
-                    <img src="imagenes/tv1.jpg">
-                    <h3>ASUS GEFORCE RTX 2060</h3>
-                <h3 class="precio">S/2451.80</h3>
-                </div>
-                <div class="itemscont">
-                    <img src="imagenes/tv2.jpg">
-                    <h3>MSI GEFORCE RTX 3080</h3>
-                    <h3 class="precio">S/8195.90</h3>
-                </div>
-                <div class="itemscont">
-                    <img src="imagenes/tv3.jpg">
-                    <h3>ASROCK RADEON RX 6800</h3>
-                <h3 class="precio">S/6965.90</h3>
-                </div>
-            </div>
+              </div>
         </div>
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/pro3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">RYZEN 5 5600X</h5>
+                  <p class="card-text">S/742.40</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
+                </div>
+              </div>
+        </div>
+      </div>
     </div>
-    <div class="footer">
-        <div class="footer_gab1">
-            <h4>Creado por JF5 Store</h4>
+    <div class="bg-tienda_item2 text-center m-0 p-5">
+      <h1 class="animate__animated animate__zoomInLeft">PLACAS MADRE</h1>
+      <div class="row">
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/mb1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ASUS ROG STRIX</h5>
+                  <p class="card-text">S/565.80</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
+                </div>
+              </div>
         </div>
-        <div class="footer_gab2">
-            <h4>Copyright 2021</h4>
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/mb2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ASROCK B550 TAICHI</h5>
+                  <p class="card-text">S/1717.90</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
+                </div>
+              </div>
         </div>
+        <div class="col-sm-4 d-flex p-2 justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/mb3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">GIGABYTE B550M DS3H</h5>
+                  <p class="card-text">S/487.90</p>
+                  <a href="#" class="btn btn-danger">COMPRAR</a>
+                </div>
+              </div>
+        </div>
+      </div>
     </div>
+    <div class="bg-tienda_item3 text-center m-0 p-5">
+        <h1 class="animate__animated animate__zoomInLeft">TARJETAS DE VIDEO</h1>
+        <div class="row">
+            <div class="col-sm-4 d-flex p-2 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/tv1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ASUS GEFORCE RTX 2060</h5>
+                      <p class="card-text">S/2451.80</p>
+                      <a href="#" class="btn btn-danger">COMPRAR</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 d-flex p-2 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/tv2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">MSI GEFORCE RTX 3080</h5>
+                      <p class="card-text">S/8195.90</p>
+                      <a href="#" class="btn btn-danger">COMPRAR</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-4 d-flex p-2 justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/tv3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">ASROCK RADEON RX 6800</h5>
+                      <p class="card-text">S/6965.90</p>
+                      <a href="#" class="btn btn-danger">COMPRAR</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+  </main>
+  <footer>
+    <div class="row m-0 p-3 text-center piePagina">
+        <div class="col-sm-4 text-sm-start">
+              <img class="animate__animated animate__backInDown logosFooter" src="imagenes/socialMedia_logo.png" alt="jf5 store instagram">
+        </div>
+        <div class="col-sm-4 text-sm-center">
+          <h4 class="animate__animated animate__backInDown">Información Contactos</h4>
+          <h6 class="footer-detalles animate__animated animate__backInDown">Correo:jf5store.da@gmail.com</h6>
+          <h6 class="footer-detalles animate__animated animate__backInDown">Celular: +51 912837321</h6>
+        </div>
+        <div class="col-sm-4 text-sm-end">
+          <h4 class="animate__animated animate__backInDown">Creado por JF5 Store</h4>
+          <h4 class="animate__animated animate__backInDown">Copyright 2021©</h4>
+        </div>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 </html>

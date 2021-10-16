@@ -54,6 +54,27 @@
    }
 }
 
+.bg-tienda{
+    @extend .bg-empresa;
+    color: black;
+    height: 75vh;
+    h1{
+        color: rgba(255, 255, 255, 0.801);
+        font-size:2rem;
+    }
+}
+.bg-tienda_item1{
+    @extend .bg-tienda;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/tienda1.jpg); 
+}
+.bg-tienda_item2{
+    @extend .bg-tienda;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/tienda2.jpg); 
+}
+.bg-tienda_item3{
+    @extend .bg-tienda;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/tienda3.jpg); 
+}
 .bg-nosotros{
    @extend .bg-empresa;
    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/somos1.jpg); 
@@ -65,4 +86,9 @@
 h1 p{
     margin: 0px;
     padding: 0px;
+}
+@media (max-width: 576px) {
+    .bg-tienda{
+        height: 175vh;
+    }
 }
