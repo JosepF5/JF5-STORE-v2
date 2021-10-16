@@ -45,18 +45,22 @@
    height: 5rem;
 }
 .bg-empresa{
+   color: rgba(255, 255, 255, 0.548);
    background-repeat: no-repeat;
    background-size: cover;
    height: 40vh;
+   h1{
+    color: rgba(255, 255, 255, 0.788);
+   }
 }
 
 .bg-nosotros{
    @extend .bg-empresa;
-   background-image: url(../imagenes/somos1.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/somos1.jpg); 
 }
 .bg-meta{
     @extend .bg-empresa;
-    background-image: url(../imagenes/somos2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/somos2.jpg);
 }
 h1 p{
     margin: 0px;
