@@ -32,20 +32,36 @@
   width: 15rem;
   height: 5rem; }
 
-.bg-empresa, .bg-tienda, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3, .bg-nosotros, .bg-meta {
+.bg-empresa, .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3, .bg-nosotros, .bg-meta {
   color: rgba(255, 255, 255, 0.548);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vh; }
-  .bg-empresa h1, .bg-tienda h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1, .bg-nosotros h1, .bg-meta h1 {
+  .bg-empresa h1, .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1, .bg-nosotros h1, .bg-meta h1 {
     color: rgba(255, 255, 255, 0.788); }
 
-.bg-tienda, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+.bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
   color: black;
   height: 75vh; }
-  .bg-tienda h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1 {
+  .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1 {
     color: rgba(255, 255, 255, 0.801);
     font-size: 2rem; }
+
+.bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+  color: rgba(255, 255, 255, 0.548);
+  height: 60vh; }
+
+.bg-combo_item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
+
+.bg-combo_item2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda2.jpg); }
+
+.bg-combo_item3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda3.jpg); }
+
+.bg-combo_item4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
 
 .bg-tienda_item1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
@@ -67,5 +83,5 @@ h1 p {
   padding: 0px; }
 
 @media (max-width: 576px) {
-  .bg-tienda, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
     height: 175vh; } }
