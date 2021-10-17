@@ -84,4 +84,16 @@ h1 p {
 
 @media (max-width: 576px) {
   .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+    height: 200vh; }
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+    height: 115vh; } }
+
+@media (max-width: 450px) {
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
+    height: 150vh; } }
+
+@media (max-width: 360px) {
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+    height: 225vh; }
+  .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
     height: 175vh; } }

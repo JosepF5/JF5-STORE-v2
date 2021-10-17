@@ -112,6 +112,22 @@ h1 p{
 }
 @media (max-width: 576px) {
     .bg-tienda{
+        height: 200vh;
+    }
+    .bg-combo{
+        height: 115vh;
+    }
+}
+@media (max-width: 450px) {
+    .bg-combo{
+        height: 150vh;
+    }
+}
+@media (max-width: 360px) {
+    .bg-tienda{
+        height: 225vh;
+    }
+    .bg-combo{
         height: 175vh;
     }
 }
