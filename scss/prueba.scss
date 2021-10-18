@@ -68,7 +68,17 @@
     color:rgba(255, 255, 255, 0.548);
     height: 60vh;
 }
-
+.bg-form{
+    @extend .bg-tienda;
+    color:rgba(255, 255, 255, 0.548);
+}
+.bkg_form{
+    background-color:white;
+}
+.bg-form_item1{
+    @extend .bg-form;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/tienda1.jpg); 
+}
 .bg-combo_item1{
     @extend .bg-combo;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../imagenes/tienda1.jpg); 
@@ -111,6 +121,9 @@ h1 p{
     padding: 0px;
 }
 @media (max-width: 576px) {
+    .bg-form{
+        height: 10vh;
+    }
     .bg-tienda{
         height: 200vh;
     }

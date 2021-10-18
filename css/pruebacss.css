@@ -32,24 +32,33 @@
   width: 15rem;
   height: 5rem; }
 
-.bg-empresa, .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3, .bg-nosotros, .bg-meta {
+.bg-empresa, .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3, .bg-nosotros, .bg-meta {
   color: rgba(255, 255, 255, 0.548);
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vh; }
-  .bg-empresa h1, .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1, .bg-nosotros h1, .bg-meta h1 {
+  .bg-empresa h1, .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-form h1, .bg-form_item1 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1, .bg-nosotros h1, .bg-meta h1 {
     color: rgba(255, 255, 255, 0.788); }
 
-.bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+.bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
   color: black;
   height: 75vh; }
-  .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1 {
+  .bg-tienda h1, .bg-combo h1, .bg-combo_item1 h1, .bg-combo_item2 h1, .bg-combo_item3 h1, .bg-combo_item4 h1, .bg-form h1, .bg-form_item1 h1, .bg-tienda_item1 h1, .bg-tienda_item2 h1, .bg-tienda_item3 h1 {
     color: rgba(255, 255, 255, 0.801);
     font-size: 2rem; }
 
 .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
   color: rgba(255, 255, 255, 0.548);
   height: 60vh; }
+
+.bg-form, .bg-form_item1 {
+  color: rgba(255, 255, 255, 0.548); }
+
+.bkg_form {
+  background-color: white; }
+
+.bg-form_item1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
 
 .bg-combo_item1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/tienda1.jpg); }
@@ -83,7 +92,9 @@ h1 p {
   padding: 0px; }
 
 @media (max-width: 576px) {
-  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+  .bg-form, .bg-form_item1 {
+    height: 10vh; }
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
     height: 200vh; }
   .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
     height: 115vh; } }
@@ -93,7 +104,7 @@ h1 p {
     height: 150vh; } }
 
 @media (max-width: 360px) {
-  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
+  .bg-tienda, .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4, .bg-form, .bg-form_item1, .bg-tienda_item1, .bg-tienda_item2, .bg-tienda_item3 {
     height: 225vh; }
   .bg-combo, .bg-combo_item1, .bg-combo_item2, .bg-combo_item3, .bg-combo_item4 {
     height: 175vh; } }
