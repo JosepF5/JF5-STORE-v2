@@ -39,6 +39,10 @@
     color: var(--bs-gray-300);
     font-size: 1rem;
 }
+.sizeImgB{
+   width: 12.5rem;
+   height:12.5rem;
+}
 .logosFooter{
    position: relative;
    width: 14rem;
@@ -121,14 +125,14 @@ h1 p{
     padding: 0px;
 }
 @media (max-width: 576px) {
-    .bg-form{
-        height: 10vh;
-    }
     .bg-tienda{
         height: 200vh;
     }
     .bg-combo{
         height: 115vh;
+    }
+    .bg-form{
+        height: 125vh;
     }
 }
 @media (max-width: 450px) {
